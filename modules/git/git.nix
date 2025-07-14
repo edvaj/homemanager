@@ -6,6 +6,7 @@
     userEmail = "edvardasj@proton.me";
     extraConfig = { 
       init.defaultBranch = "main";
+      safe.directory = "/etc/nixos";
     };
   };
 }
