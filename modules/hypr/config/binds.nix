@@ -73,10 +73,10 @@
 
     # Laptop multimedia keys for volume and LCD brightness
     bindel = [
-      ",XF86AudioRaiseVolume,  exec, wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 2%+"
-      ",XF86AudioLowerVolume,  exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-"
-      ",XF86AudioMute,         exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-      ",XF86AudioMicMute,      exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
+      ",XF86AudioRaiseVolume,  exec, pactl set-sink-volume @DEFAULT_SINK@ +2%"
+      ",XF86AudioLowerVolume,  exec, pactl set-sink-volume @DEFAULT_SINK@ -2%"
+      ",XF86AudioMute,         exec, pactl set-sink-mute @DEFAULT_SINK@ toggle"
+      ",XF86AudioMicMute,      exec, pactl set-source-mute @DEFAULT_SOURCE@ toggle"
       ",XF86MonBrightnessUp,   exec, brightnessctl s 2%+"
       ",XF86MonBrightnessDown, exec, brightnessctl s 2%-"
     ];

@@ -21,21 +21,16 @@
       general = {
         gaps_in = 8;
         gaps_out = 8;
-
         border_size = 4;
-
         "col.active_border" = "rgba(fe8019ff) rgba(d3869bff) 90deg";
         "col.inactive_border" = "rgba(7c6f64ff)";
-
         resize_on_border = true;
-
         allow_tearing = false;
         layout = "dwindle";
       };
 
       decoration = {
         rounding = 4;
-
         active_opacity = 1.0;
         inactive_opacity = 1.0;
 
@@ -45,10 +40,10 @@
 
         blur = {
           enabled = true;
-	  size = 1;
-	  passes = 2;
+            size = 1;
+            passes = 2;
+          };
         };
-      };
 
       animations = {
         enabled = true;
@@ -68,7 +63,7 @@
       dwindle = {
         pseudotile = true;
         preserve_split = true;
-	smart_split = false;
+        smart_split = false;
       };
 
       master = {
