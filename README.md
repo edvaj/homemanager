@@ -1,4 +1,4 @@
-***###Home Manager Config***
+###**Home Manager Config**
 
 Welcome to my Home Manager configuration, specifically optimized for both keyboard-centric efficiency and aesthetics.
 
