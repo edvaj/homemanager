@@ -13,4 +13,4 @@ OR if too complex
 home.nix -> modules -> moduleName -> moduleName.nix -> config -> subConfig(s)Name.nix
 
 
-Feel free to fork the repository and submit pull requests if you'd like to contribute improvements. Open issues if you encounter any problems with the config or have ideas for new features.
+Feel free to fork the repository and submit pull requests if you'd like to contribute improvements. Open issues if you encounter any problems with the config or have ideas for new features.Stay reproducible ;).
