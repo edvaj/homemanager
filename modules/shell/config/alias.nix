@@ -12,7 +12,7 @@
     n = "nano";
     py = "python";
     tree = "tree --dirsfirst";
-    mathPaper = "~/Projects/mathPaper.sh";
-    madas = "~/Projects/madas.sh";
+    
+    csgn = "cd ~/Documents/csg/modules";
   };
 }

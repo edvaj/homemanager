@@ -7,5 +7,8 @@
       shiftwidth = 2;
       expandtab = true;
     };
+    extraConfig = ''
+      set autoindent
+    '';
   };
 }

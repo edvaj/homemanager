@@ -79,6 +79,7 @@
       ",XF86AudioMicMute,      exec, pactl set-source-mute @DEFAULT_SOURCE@ toggle"
       ",XF86MonBrightnessUp,   exec, brightnessctl s 2%+"
       ",XF86MonBrightnessDown, exec, brightnessctl s 2%-"
+      ",XF86Display,           exec, hyprshot -m region --clipboard-only"
     ];
   };
 }
