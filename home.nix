@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   # username and paths
@@ -15,11 +15,11 @@
     # function
     ./modules/shell/bash.nix
     ./modules/wlsunset/wlsunset.nix
-    ./modules/vim/vim.nix
     ./modules/newsboat/newsboat.nix
     ./modules/xdg/xdg.nix
     ./modules/zathura/zathura.nix
     ./modules/git/git.nix
+    ./modules/nvf/nvf.nix
   ];
 
   # do not change - read wiki if must

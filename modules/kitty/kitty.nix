@@ -6,7 +6,7 @@
     settings = {
       hide_window_decorations = "yes";
       confirm_os_window_close = 0;
-      background_opacity = 0.75;
+      background_opacity = 0.8;
       background_blur = 0;
       dynamic_background_opacity = true;
       window_padding_width = 0;

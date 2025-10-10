@@ -9,10 +9,11 @@
     hms = "home-manager switch";
     hmsf = "home-manager switch --flake .\\#goat";
     # application
-    n = "nano";
     py = "python";
     tree = "tree --dirsfirst";
-    
     csgn = "cd ~/Documents/csg/modules";
+     # neovim
+    nv = "nvim";
+    nvf = "cd ~/.config/home-manager/modules/nvf && nvim nvf.nix";
   };
 }
