@@ -4,11 +4,13 @@
     enable = true;  
     settings = {
       vim = {
-        theme = {
-          enable = true;
-          name = "gruvbox";
-          style = "dark";
-          transparent = false;
+        
+        languages = {
+          java = {
+            enable = true;
+            treesitter.enable = true;
+            lsp.enable = true;
+          };
         };
 
         options = {
@@ -17,19 +19,51 @@
           autoindent = true;
         };
 
+        clipboard.enable = true;
+
+        theme = {
+          enable = true;
+          name = "gruvbox";
+          style = "dark";
+          transparent = false;
+        };
+
         visuals = {
           nvim-scrollbar.enable = true; # Shows a scrollbar in the editor
           nvim-web-devicons.enable = true; # Adds file type icons to various UI elements
+          fidget-nvim.enable = false;
           nvim-cursorline.enable = true; # Highlights the current cursor line
-          fidget-nvim.enable = true; # Shows LSP progress notifications in the corner
           highlight-undo.enable = true; # Highlights text changes after undo/redo operations
         };
 
         ui = {
+
           borders.enable = true;
-          noice.enable = true;
           colorizer.enable = true;
-          illuminate.enable = true;
+          illuminate.enable = false;
+
+          noice = {
+            enable = true;
+            setupOpts = {
+              # Silence jdtls spam
+              routes = [
+                {
+                  filter = {
+                    event = "lsp";
+                    kind = "progress";
+                  };
+                  opts = { skip = true; };
+                }
+                {
+                  filter = {
+                    event = "lsp";
+                    kind = "message";
+                  };
+                  opts = { skip = true; };
+                }
+              ];
+            };
+          };
         };
       };
     };

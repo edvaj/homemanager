@@ -8,7 +8,7 @@
         natural_scroll = true;
         clickfinger_behavior = true;
         tap-to-click = true;
-        disable_while_typing = false;
+        disable_while_typing = true;
       };
     };
     cursor = {
