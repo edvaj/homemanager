@@ -11,7 +11,6 @@
     # application shortcuts
     py = "python";
     tree = "tree --dirsfirst";
-    cn = "cd ~/Documents/csg/modules";
     dl = "cd ~/Projects/python/dl && py deadlines.py";
      # neovim
     nv = "nvim";
