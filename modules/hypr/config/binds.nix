@@ -2,7 +2,7 @@
 {
     wayland.windowManager.hyprland.settings = {
         "$mainMod" = "SUPER";
-        "$terminal" = "kitty";
+        "$terminal" = "alacritty";
         "$browser" = "librewolf";
         "$fileManager" = "thunar";
         "$musicPlayer" = "strawberry";

@@ -9,7 +9,7 @@
     # ui
     ./modules/hypr/hypr.nix
     ./modules/waybar/waybar.nix
-    ./modules/kitty/kitty.nix
+    ./modules/alacritty/alacritty.nix
     ./modules/theme/theme.nix
     ./modules/dunst/dunst.nix
     # function
