@@ -62,6 +62,8 @@
                         "phone" = "";
                         "car" = "";
                         "default" = ["" ""];
+                        "effect_input.eq" = "󰺢";
+
                     };
                     on-click = "pavucontrol";
                 };

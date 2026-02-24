@@ -3,7 +3,7 @@
     wayland.windowManager.hyprland.settings = {
         "$mainMod" = "SUPER";
         "$terminal" = "alacritty";
-        "$browser" = "librewolf";
+        "$browser" = "chromium";
         "$fileManager" = "thunar";
         "$musicPlayer" = "strawberry";
         "$menu" = "rofi";
