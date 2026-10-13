@@ -4,19 +4,43 @@
         enable = true;  
         settings = {
             vim = {
+
+                lsp = {
+                    enable = true;
+                    formatOnSave = true;
+                };
+
+                treesitter.enable = true;
+
+                autocomplete.blink-cmp.enable = true;
+
+                debugger.nvim-dap = {
+                    enable = true;
+                    ui.enable = true;
+                };
                 
                 languages = {
+
                     java = {
                         enable = true;
                         treesitter.enable = true;
                         lsp.enable = true;
                     };
+
+                    clang = {
+                        enable = true;
+                        treesitter.enable = true;
+                        lsp.enable = true;
+                        dap.enable = true;
+                    };
                 };
 
                 options = {
-                    tabstop = 4;
-                    shiftwidth = 4;
+                    tabstop = 2;
+                    shiftwidth = 2;
                     autoindent = true;
+                    expandtab = true;
+                    softtabstop = 2;
                 };
 
                 clipboard= {

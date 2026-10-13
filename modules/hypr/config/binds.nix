@@ -5,7 +5,7 @@
         "$terminal" = "alacritty";
         "$browser" = "chromium";
         "$fileManager" = "thunar";
-        "$musicPlayer" = "strawberry";
+        "$musicPlayer" = "spotify";
         "$menu" = "rofi";
 
         bind = [
@@ -14,11 +14,12 @@
             "$mainMod,       bracketright, exec, $fileManager"
             "$mainMod,       numbersign, exec, $musicPlayer"
             "$mainMod,       Z, exec, $menu -show drun"
+            "$mainMod,       X, exec, cliphist list | rofi -dmenu -display-columns 2 | cliphist decode | wl-copy"
             "$mainMod,       Q, killactive,"
             "$mainMod SHIFT, Q, exit,"
+            "$mainMod SHIFT, P, pseudo,"
             "$mainMod,       space, togglefloating,"
-            "$mainMod,       P, pin,"
-            "$mainMod,       O, togglesplit,"
+            "$mainMod,       O, layoutmsg, togglesplit"
             "$mainMod,       B, exec, pkill -SIGUSR2 waybar"
             "$mainMod SHIFT, B, exec, pkill -SIGUSR1 waybar"
 

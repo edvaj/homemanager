@@ -3,9 +3,8 @@
   wayland.windowManager.hyprland.settings = {
     exec-once = [
       "waybar"
-      "swww-daemon"
+      "awww-daemon"
       "nm-applet --indicator"
-      "blueman-applet"
     ];
   };
 }

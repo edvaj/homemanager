@@ -12,6 +12,7 @@
     ./modules/alacritty/alacritty.nix
     ./modules/theme/theme.nix
     ./modules/dunst/dunst.nix
+    ./modules/rofi/rofi.nix
     # function
     ./modules/shell/bash.nix
     ./modules/wlsunset/wlsunset.nix
@@ -20,6 +21,7 @@
     ./modules/zathura/zathura.nix
     ./modules/git/git.nix
     ./modules/nvf/nvf.nix
+    ./modules/cliphist/cliphist.nix
   ];
 
   # do not change - read wiki if must
@@ -35,7 +37,7 @@
 
   # set env variables
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    NH_HOME_FLAKE = "/home/goat/.config/home-manager"; # for nh
   };
 
   # let Home Manager install and manage itself.

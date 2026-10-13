@@ -9,8 +9,8 @@
     };
 
     theme = {
-      name = "Gruvbox-Dark";
-      package = pkgs.gruvbox-gtk-theme;
+      name = "WhiteSur-Dark-solid";
+      package = pkgs.whitesur-gtk-theme;
     };
 
     font = {

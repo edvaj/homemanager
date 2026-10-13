@@ -10,9 +10,9 @@
         offset = "4x4";
         origin = "bottom-right";
         # frame
-        frame_color = "#d3869b";
+        frame_color = "fe8019";
         frame_width = 4;
-        corner_radius = 4;
+        corner_radius = 0;
         # font
         font = "JetBrainsMono Nerd Font 10";
         # icon

@@ -1,6 +1,6 @@
 * {
   border: none;
-  border-radius: 0px;
+  border-radius: 0;
   font-family: "JetBrainsMono Nerd Font";
   font-weight: bold;
   font-size: 16px;
@@ -10,53 +10,47 @@
 }
 
 window#waybar {
-  background: transparent;
-  border-radius: 4px;
+  background: #1d2021;
   margin: 0;
 }
 
 window#waybar.empty .modules-center {
   background: transparent;
   padding: 0;
-  margin-top: 0;
 }
 
 .modules-left {
-  background: #282828;
-  border-radius: 4px;
-  margin-top: 8px;
-  margin-left: 8px;
+  background: #1d2021;
 }
 
 .modules-center {
-  background: #282828;
-  border-radius: 4px;
-  margin-top: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
+  background: #1d2021;
   padding: 0 8px;
 }
 
 .modules-right {
-  background: #282828;
-  border-radius: 4px;
-  margin-top: 8px;
-  margin-right: 8px;
+  background: #1d2021;
+}
+
+/* Window title */
+#window {
+  color: #ebddb2;
+  padding: 0 12px;
 }
 
 /* Workspace Buttons */
-#workspaces button label{
+#workspaces button label {
   color: #ebddb2;
   padding: 0 4px;
 }
+
 #workspaces button.active label {
-  color: #282828;
+  color: #1d2021;
 }
 
 #workspaces button {
-  background: #282828;
+  background: #1d2021;
   border-bottom: 0;
-  border-radius: 4;
 }
 
 #workspaces button.active {
@@ -64,15 +58,14 @@ window#waybar.empty .modules-center {
 }
 
 #tray, #memory, #backlight, #pulseaudio, #pulseaudio.muted, #battery, #clock {
-  background: #282828;
+  background: #1d2021;
   margin: 0;
-  border-bottom: 4px solid;
+  /*border-bottom: 4px solid;*/
 }
 
 #tray {
   color: #8ec07c;
   padding: 0 8px;
-  border-radius: 4px 0 0 4px;
 }
 
 #memory {
@@ -103,5 +96,4 @@ window#waybar.empty .modules-center {
 #clock {
   color: #fb4934;
   padding: 0 8px;
-  border-radius: 0 4px 4px 0
 }

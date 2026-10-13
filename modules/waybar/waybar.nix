@@ -6,10 +6,10 @@
         settings = {
             mainBar = {
                 layer = "top";
-                position = "top";
-                height = 42;
-                modules-left = ["hyprland/workspaces"];
-                modules-center = ["hyprland/window"];
+                position = "bottom";
+                height = 32;
+                modules-left = ["hyprland/window"];
+                modules-center = ["hyprland/workspaces"];
                 modules-right = [ "tray" "memory" "backlight" "pulseaudio" "battery" "clock" ];
                 "hyprland/workspaces" = {
                     disable-scroll = true;
@@ -28,10 +28,6 @@
 	                    "8" = "8";
              	        "9" = "9";
 	                    "10" = "0";
-                    };
-
-                    persistent-workspaces = {
-                        "*" = 9;
                     };
                 };
 	
