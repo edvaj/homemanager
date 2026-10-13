@@ -1,7 +1,7 @@
 { config, pkgs, ... }: 
 {
   imports = [
-    ./config/alias.nix
-    ./config/bash.nix
+    ./alias.nix
+    ./bash.nix
   ];
 }

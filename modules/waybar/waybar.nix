@@ -2,7 +2,7 @@
 {
     programs.waybar = {
         enable = true;
-        style = ./config/style.css;
+        style = ./style.css;
         settings = {
             mainBar = {
                 layer = "top";

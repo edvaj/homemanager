@@ -1,9 +1,9 @@
 { config, pkgs, ... }:
 {
   imports = [
-    ./config/ui.nix
-    ./config/binds.nix
-    ./config/startup.nix
-    ./config/input.nix
+    ./ui.nix
+    ./binds.nix
+    ./startup.nix
+    ./input.nix
   ];
 }
