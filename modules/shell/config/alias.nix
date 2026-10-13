@@ -18,12 +18,11 @@
         # utilities
         py = "python";
         tree = "tree --dirsfirst";
-        clip = "wl-copy <";
 
         # applications
         new = "alacritty & disown";
         chess = "alacritty msg config font.size=12 && chess-tui; alacritty msg config font.size=14";
-        dl = "cd ~/Projects/python/dl && py deadlines.py";
+        dl = "cd ~/projects/python/dl && py deadlines.py";
         z = "setsid -f zathura";
         vp = ''mkdir -p "$HOME/.config/VisualParadigm/tmp" && JDK_JAVA_OPTIONS="--add-opens=java.desktop/javax.swing.plaf.metal=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED" _JAVA_OPTIONS="-Djava.io.tmpdir=$HOME/.config/VisualParadigm/tmp" _JAVA_AWT_WM_NONREPARENTING=1 "$(readlink -f "$(which Visual_Paradigm)")"'';
     };

@@ -14,7 +14,7 @@
     ./modules/dunst/dunst.nix
     ./modules/rofi/rofi.nix
     # function
-    ./modules/shell/bash.nix
+    ./modules/shell/shell.nix
     ./modules/wlsunset/wlsunset.nix
     ./modules/newsboat/newsboat.nix
     ./modules/xdg/xdg.nix
